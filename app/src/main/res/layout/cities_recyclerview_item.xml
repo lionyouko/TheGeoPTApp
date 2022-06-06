@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cityCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:id="@+id/cityCardLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityCardItemHeader"
+            android:text="@string/citiesRecyclerViewCardItemTextView"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/placeHolderViewModelItemId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/cityLocationCardItemTextView"-->
+<!--                android:text="@string/localidadeRecyclerViewCardItemTextView"-->
+<!--                android:padding="4dp"-->
+<!--                style="@style/TextAppearance.AppCompat.Headline"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/cityEmailCardItemTextView"-->
+<!--                android:text="@string/emailRecyclerViewCardItemTextView"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:padding="4dp"-->
+<!--                style="@style/TextAppearance.AppCompat.Subhead" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/cityPhoneCardItemTextView"-->
+<!--            android:text="@string/telefoneRecyclerViewCardItemTExtView"-->
+<!--            android:padding="8dp"-->
+<!--            style="@style/TextAppearance.AppCompat.Subhead" />-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">The GeoPT App</string>
+    <string name="title_cities">Cidades</string>
+    <string name="title_search">Procurar</string>
+    <string name="title_about">Sobre</string>
+    <string name="citiesRecyclerViewCardItemTextView">Cidade</string>
+    <string name="localidadeRecyclerViewCardItemTextView">Localidade:</string>
+    <string name="emailRecyclerViewCardItemTextView">Email:</string>
+    <string name="telefoneRecyclerViewCardItemTExtView">Telefone:</string>
+    <string name="listaDeCidadesRecyclerViewTextView">Lista De Cidades (A-Z):</string>
+    <string name="noCitiesToShow">Sem Cidades Para Mostrar</string>
+    <string name="title_activity_city_details">CityDetailsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="city_details_activity_header">Detalhes da Cidade:</string>
+    <string name="contatosOfCityTextViewHeader">Contatos:</string>
+    <string name="www_geoptapi_org"><a href="www.geoptapi.org">www.geoptapi.org</a></string>
+    <string name="title_favorite">Favoritos</string>
+</resources>
