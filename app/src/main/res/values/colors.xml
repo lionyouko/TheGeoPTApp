@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="sandstone">#F4CC70</color>
+    <color name="orange">#DE7A22</color>
+    <color name="sea">#20948B</color>
+    <color name="lagoon">#6AB187</color>
+
 </resources>

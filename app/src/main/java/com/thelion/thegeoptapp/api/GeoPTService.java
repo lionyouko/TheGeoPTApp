@@ -24,4 +24,12 @@ public interface GeoPTService {
     })
     @GET("/municipios/{city}")
     Call<JsonObject> getACity(@Path("city") String city);
+
+
+    @Headers({
+            GeoPTServiceGenerator.H_ACCEPT_JSON,
+            GeoPTServiceGenerator.H_USER_AGENT
+    })
+    @GET("/municipios/{city}/freguesias")
+    Call<JsonObject> getAParishesOfACity(@Path("city") String city);
 }

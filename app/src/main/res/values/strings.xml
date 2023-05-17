@@ -17,6 +17,6 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="city_details_activity_header">Detalhes da Cidade:</string>
     <string name="contatosOfCityTextViewHeader">Contatos:</string>
-    <string name="www_geoptapi_org"><a href="www.geoptapi.org">www.geoptapi.org</a></string>
+    <string name="www_geoapi_pt"><a href="www.geoapi.pt">www.geoapi.pt</a></string>
     <string name="title_favorite">Favoritos</string>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.about.AboutFragment">
 
     <TextView
@@ -67,11 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/www_geoptapi_org"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apiResourceNames"
         android:autoLink="web"
         android:linksClickable="true"
-        />
+        android:minHeight="48dp"
+        android:text="@string/www_geoapi_pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apiResourceNames" />
 </androidx.constraintlayout.widget.ConstraintLayout>

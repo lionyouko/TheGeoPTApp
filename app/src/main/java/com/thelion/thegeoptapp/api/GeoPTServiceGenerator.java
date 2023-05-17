@@ -4,8 +4,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class GeoPTServiceGenerator {
-    private static final String BASE_URL = "https://geoptapi.org";
-    public static final String H_USER_AGENT = "User-Agent: Mozzarela FireFonix";
+    private static final String BASE_URL = "https://geoapi.pt";
+    public static final String H_USER_AGENT = "User-Agent: Mozzarela FireFuxy";
     public static final String H_ACCEPT_JSON = "Accept: application/json";
 
     private static OkHttpClient httpClient =

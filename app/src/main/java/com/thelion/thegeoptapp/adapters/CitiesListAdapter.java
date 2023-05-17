@@ -22,7 +22,6 @@ import com.thelion.thegeoptapp.R;
 import com.thelion.thegeoptapp.api.GeoPTService;
 import com.thelion.thegeoptapp.api.ServiceProvider;
 import com.thelion.thegeoptapp.interfaces.RestorePositionAdapter;
-import com.thelion.thegeoptapp.utilities.GeneralUtilities;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -70,7 +69,7 @@ public class CitiesListAdapter extends RecyclerView.Adapter<CitiesListAdapter.Ci
 
             //Here we can put the remaining stuff later on filling the other parts
             //of the cards (see how there are parts commented about the card)
-            GeneralUtilities.setLinearLayoutColor(holder.CityCardItemLinearLayout, "PT");
+            //GeneralUtilities.setLinearLayoutColor(holder.CityCardItemLinearLayout, "PT");
 
             //Para context menu 11: agora salvar o id num textView invisivel
             holder.cityId.setText(String.valueOf(currentCity));
